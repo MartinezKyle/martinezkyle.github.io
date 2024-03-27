@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kyle Martinez - DATA101 Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kyle Martinez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#profile">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data Projects</a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#data-projects">Data Projects</a></li>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="#ongoing-projects">Ongoing Projects</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="#ongoing-1">Particle Simulation</a></li>
+                                <li><a class="dropdown-item" href="#ongoing-2">Modeling the Driving Behavior of UV Express in Mixed Traffic Scenarios</a></li>
+                                <li><a class="dropdown-item" href="#ongoing-3">Behind the Screens: Exploring the Key Factors Behind Channel Success and Disparities</a></li>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="#past-projects">Past Projects</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="#past-1">Animal Chess</a></li>
+                                <li><a class="dropdown-item" href="#past-2">UNIDA Church Member Management System</a></li>
+                                <li><a class="dropdown-item" href="#past-3">Flood Hazard Levels of Colleges and Universities in the City of Manila</a></li>
+                                <li><a class="dropdown-item" href="#past-4">Unveiling Road Safety Dynamics: Analyzing Factors Influencing Traffic Casualties and Forecasting Severity</a></li>
+                                <li><a class="dropdown-item" href="#past-5">STINTSY Major Course Output - Garments Dataset</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container px-3 mt-5">
+            <div class="row pt-5" id="profile">
+                <div class="col-lg-auto col-md-12 text-center">
+                    <image src="images/GP1x1.jpg" class="image rounded-circle"></image>
+                </div>
+                <div class="col d-flex flex-column  text-sm-center text-lg-start">
+                    <div class="row flex-grow-1 align-items-end">
+                        <h1 class="name">Kyle Martinez</h1>
+                    </div>
+                    <div class="row flex-shrink-1 align-items-end mt-1">
+                        <a href="mailto:kyle_martinez@dlsu.edu.ph" target="_blank">kyle_martinez@dlsu.edu.ph</a>
+                    </div>
+                    <div class="row flex-shrink-1 d-flex flex-column mt-1">
+                        <div class="column">
+                            <a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub</a>
+                            <a class="btn btn-primary btn-sm w-auto" href="https://github.com/Kyle-Martinez" target="_blank"><img src="images/linkedin-app-white-icon.png" alt="GitHub" width="30px" class="me-1">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-3">
+                <h2>Short Bio:</h2>
+                <p>Currently a 4th Year Bachelor of Science Major in Software Technology and Minor in Data Science student of De La Salle University.</p>
+                <hr class="mt-5 mb-0">
+                
+            </div>
+            <div id="data-projects" class="row pt-5 mb-5">
+                <h2>Data Projects</h2>
+                <span class="fs-6">These are the projects that I am currently working on and I have worked on in the past.</span>
+                
+                <h3 class="pt-5" id="ongoing-projects">Ongoing Projects</h3>
+                <p>These are my ongoing projects</p>
+                <div class="px-4">
+                    <div class="row pt-5" id="ongoing-1">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/Particle_Simulation.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">Particle Simulation</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i> A particle physics simulator made using Java. A user could add particles to the canvas, add walls, which the particles will bounce off of. This project is made to learn load management as when rendering the canvas, the frame rate should not drop when updating the environment. Created as  fulfillment for a requirement in Parallel and Distrubuted Computing course.</i>
+                            </div>
+                            <div class="row d-inline">
+                                <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez/ParticleSimulation" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5" id="ongoing-2">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/UV.jpg" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">Modeling the Driving Behavior of UV Express in Mixed Traffic Scenarios</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>The Philippines is a developing country that is currently undergoing rapid urbanization. Along with rapid urbanization comes the problem of worsening traffic congestion. There have been multiple studies where traffic models have been used to optimize traffic conditions and policies. Models have also been used to test and guide in developing policies and solutions. Among the para-transit vehicles roaming its roads, UV Express is one of the most popular and used ones. While multiple models were made for different driver behaviors and vehicles, UV Express driver's behavior has not yet been modeled. This study aims to collect real-world data and use it to create a model, specifically using the Hidden Markov Model, and simulate it in Simulation of Urban MObility (SUMO).</i>
+                            </div>
+                            <div class="row d-inline">
+                                <!-- <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5" id="ongoing-3">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/yt_logo_rgb_light.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">Behind the Screens: Exploring the Key Factors Behind Channel Success and Disparities</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>YouTube accommodates a diverse range of content creators, all striving for success and recognition. However, aspiring and existing YouTube content creators face significant challenges in understanding the factors contributing to channel success and disparities among channels. An interactive visualization application presents an opportunity to address these challenges by offering insights into the dynamics of existing top YouTubers. </i>
+                            </div>
+                            <div class="row d-inline">
+                                <!-- <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="pt-5" id="past-projects">Past Projects</h3>
+                <p>Feel free to check my completed projects</p>
+                <div class="px-4">
+                    <div class="row pt-5" id="past-1">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/Dou_shou_qi_board.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">Animal Chess</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>An implementation of the Jungle strategy board game/Dou Shou Qi in Java utilizing object-oriented programming concepts. It is a two player strategy game where the gameboard represents a jungle terrain with dens, traps and rivers, each player controlls eight pieces representing animals of different rank and each piece can "eat" a lower-ranking piece, and to win, a player must reach the opponent's den with a piece or capture all of the opponent's pieces. Created as a project for Object-Oriented Programming course</i>
+                            </div>
+                            <div class="row d-inline">
+                                <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez/Animal-Chess" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5" id="past-2">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/CSSWENG.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">UNIDA Church Member Management System</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>A Customer Relationship Management Application using NodeJS for a church in Imus, Cavite. The program can be used to monitor and manage the churchgoers' status (such as baptism staus) and track attendance in church activities. Created as a project for Software Engineering course.</i>
+                            </div>
+                            <div class="row d-inline">
+                                <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez/Church-Member-Management-System" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5" id="past-3">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/By Area CU Points.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">Flood Hazard Levels of Colleges and Universities in the City of Manila</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>Manila houses the University belt, an area in the city where multiple well-known schools, colleges, and universities are concentrated. The visualization aims to know and visualize colleges and universities exposed to flood hazards in the city, how many colleges and universities in Manila are exposed to flood hazards, and how many schools are exposed to these flood hazards per district. Created using QGIS as a fulfillment for a requirement in Geospatial Mapping and Analytics course.</i>
+                            </div>
+                            <div class="row d-inline">
+                                <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez/DATA401_Final-Map_Project_Martinez-Racela" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a>
+                                <a class="btn btn-outline-dark btn-sm w-auto" href="./images/By Area CU Points.png" target="_blank"><img src="images/image_icon.png" alt="GitHub" width="30px" class="me-1">Visualization 1</a>
+                                <a class="btn btn-outline-dark btn-sm w-auto" href="./images/By Level CU Points.png" target="_blank"><img src="images/image_icon.png" alt="GitHub" width="30px" class="me-1">Visualization 2</a>
+                                <a class="btn btn-outline-dark btn-sm w-auto" href="./images/By Area District Counts.png" target="_blank"><img src="images/image_icon.png" alt="GitHub" width="30px" class="me-1">Visualization 3</a>
+                                <a class="btn btn-outline-dark btn-sm w-auto" href="./images/By Level District Counts.png" target="_blank"><img src="images/image_icon.png" alt="GitHub" width="30px" class="me-1">Visualization 4</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5" id="past-4">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/Data100 Final Project.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">Unveiling Road Safety Dynamics: Analyzing Factors Influencing Traffic Casualties and Forecasting Severity</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>This project aims to decrease the overall number of accidents through proposal of policy changes derived from our insights, focusing on factors under our control, for instance, advocating for increased signage during specific times or in particular areas, as well as augmenting police presence during identified high-risk periods; and development of a predictive model to determine the severity of an accident based on weather conditions. Created for fulfilling the final project requirement for Principles of Data Science course.</i>
+                            </div>
+                            <div class="row d-inline">
+                                <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez/DATA-100-Final-Project" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5" id="past-5">
+                        <div class="col-md-3 col-sm-12 mb-2">
+                            <img class="rounded" src="images/Garment-Factory.png" alt="Project Thumbnail" width="100%">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="row">
+                                <h4><span class="fs-5">STINTSY Major Course Output - Garments Dataset</span></h4>
+                            </div>
+                            <div class="row mb-3">
+                                <i>The Garments industry is a highly labor-intensive industry. To satify the high global demands, the output of this industry is highly dependent on the production and delivery performance of the employees. Due to this, to better understand and improve the productivity of the manufacturing processes, it is important that we analyze the process and performance of the workers to be able to predict actual productivity outputed by the workers in the process. This project aims to conduct regression analysis to predict the actual productivity of workers given the data. An overview for how much each attribute affects the actual productivity will further be explored. Created for fulfilling the final project requirement for Advanced Intelligent Systems course.</i>
+                            </div>
+                            <div class="row d-inline">
+                                <i><b>Link: </b></i><a class="btn btn-dark btn-sm w-auto" href="https://github.com/Kyle-Martinez/STINTSY-Final-Major-Course-Output" target="_blank"><img src="images/github-mark-white.png" alt="GitHub" width="30px" class="me-1">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
